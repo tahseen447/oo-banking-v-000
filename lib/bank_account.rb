@@ -12,5 +12,5 @@ class BankAccount
   end
 
   def display_balance
-    puts @balance
+    puts "$#{@balance}"
 end
