@@ -14,6 +14,8 @@ class Transfer
   end
 
   def execute_transaction
+    if self.valid?
+      receiver.deposit(self.amount)
   end
 
   def reverse_transfer(a, b, c)
