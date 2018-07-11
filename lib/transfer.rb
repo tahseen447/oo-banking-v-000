@@ -7,4 +7,7 @@ class Transfer
     @sender = sender
     @receiver = receiver
   end
+
+  def valid?
+
 end
