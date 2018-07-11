@@ -13,7 +13,7 @@ class Transfer
     @sender.valid? && @receiver.valid?
   end
 
-  def execute_transaction(a, b, c)
+  def execute_transaction
   end
 
   def reverse_transfer(a, b, c)
